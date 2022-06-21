@@ -1,0 +1,15 @@
+[package]
+name = "rustui_playground"
+version = "0.1.0"
+authors = ["Jerahmeel Cosinas <me@jerahmeelcosinas.net>"]
+edition = "2021"
+
+[dependencies]
+
+
+[dev-dependencies]
+druid = "0.7.0"
+
+[[example]]
+name = "druid"
+path = "examples/druid.rs"
